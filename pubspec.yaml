@@ -1,6 +1,6 @@
 name: imgur_dart
 description: A simple imgur API wrapper for Dart.
-version: 0.0.4
+version: 0.0.6
 
 environment:
   sdk: ^3.0.5

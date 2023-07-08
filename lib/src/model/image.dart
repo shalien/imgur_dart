@@ -25,7 +25,7 @@ final class Image {
   final List<String>? tags;
   final int? adType;
   final String? adUrl;
-  final int? edited;
+  final dynamic edited;
   final bool? inGallery;
   final String? link;
   final Map<String, dynamic>? adConfig;
@@ -85,7 +85,7 @@ final class Image {
       (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList(),
       json['ad_type'] as int?,
       json['ad_url'] as String?,
-      json['edited'] as int?,
+      json['edited'],
       json['in_gallery'] as bool?,
       json['link'] as String?,
       json['ad_config'] as Map<String, dynamic>?,
